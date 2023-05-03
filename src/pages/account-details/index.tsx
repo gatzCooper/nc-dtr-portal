@@ -81,7 +81,7 @@ export default function AccountDetails(props: any) {
                   <FormControl
                     label="ID No."
                     type="text"
-                    name="UserNo"
+                    name="userNo"
                     isReadOnly={true}
                   />
                 </GridItem>
@@ -98,7 +98,7 @@ export default function AccountDetails(props: any) {
                   <FormControl
                     label="First Name"
                     type="text"
-                    name="Fname"
+                    name="fName"
                     isReadOnly={!isEditing}
                   />
                 </GridItem>
@@ -106,7 +106,7 @@ export default function AccountDetails(props: any) {
                   <FormControl
                     label="Middle Name"
                     type="text"
-                    name="Mname"
+                    name="mName"
                     isReadOnly={!isEditing}
                   />
                 </GridItem>
@@ -114,7 +114,7 @@ export default function AccountDetails(props: any) {
                   <FormControl
                     label="Last Name"
                     type="text"
-                    name="Lname"
+                    name="lName"
                     isReadOnly={!isEditing}
                   />
                 </GridItem>
@@ -122,7 +122,7 @@ export default function AccountDetails(props: any) {
                   <FormControl
                     label="Contact"
                     type="text"
-                    name="Contact"
+                    name="contact"
                     isReadOnly={!isEditing}
                   />
                 </GridItem>
@@ -138,7 +138,7 @@ export default function AccountDetails(props: any) {
                   <FormControl
                     label="Status"
                     type="select"
-                    name="Status"
+                    name="status"
                     options={StatusOptions}
                     isReadOnly={!isEditing}
                   />
@@ -147,7 +147,7 @@ export default function AccountDetails(props: any) {
                   <FormControl
                     label="Department"
                     type="select"
-                    name="Department"
+                    name="department"
                     options={DepartmentOptions}
                     isReadOnly={!isEditing}
                   />
@@ -156,7 +156,7 @@ export default function AccountDetails(props: any) {
                   <FormControl
                     label="Address"
                     type="text"
-                    name="Address"
+                    name="address"
                     isReadOnly={!isEditing}
                   />
                 </GridItem>
