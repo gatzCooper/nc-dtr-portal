@@ -9,6 +9,7 @@ import {
   StackDivider,
   Grid,
   GridItem,
+  
 } from "@chakra-ui/react";
 import { Card, Layout } from "@/components";
 import { Announcements } from "@/data";
@@ -17,15 +18,18 @@ import { checkAuth } from "@/lib";
 export default function Home(props: any) {
   const { user } = props;
   return (
+    
+    
     <Layout user={user}>
       <Grid
         h="200px"
         templateRows="repeat(2, 1fr)"
         templateColumns="repeat(6, 1fr)"
         gap={4}
+        
       >
-        <GridItem rowSpan={1} colSpan={4}>
-          <Card title="Vision">
+        <GridItem rowSpan={1} colSpan={4} >
+          <Card title="Vision" backgroundColor={"#d7eefe"} >
             <Text pt="2" fontSize="sm" fontWeight="bold">
               Norzagaray College envisions itself to transform lives of
               individuals and communities through life-long learning.
@@ -34,7 +38,7 @@ export default function Home(props: any) {
         </GridItem>
 
         <GridItem rowSpan={2} colSpan={2}>
-          <Card title="Announcements">
+          <Card title="Announcements"backgroundColor={"#fff7d7"}>
             <Stack divider={<StackDivider />} spacing="4">
               {Announcements.map(
                 ({ month, year, isNew, announcements }, index) => (
