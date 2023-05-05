@@ -21,7 +21,7 @@ export function Nav(props: any) {
       }}
     >
       <Flex>
-        <Image src="/logo.png" alt="logo" width={50} height={50} />
+        <Image src="/NClogo.jpg" alt="logo" width={50} height={50} />
         <Heading
           pl={5}
           size="md"
@@ -30,9 +30,11 @@ export function Nav(props: any) {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
+            textStyle: "bold"
           }}
         >
-          Norzagaray College Face Recognition DTR
+          Norzagaray College Face Recognition DTR 
+        
         </Heading>
       </Flex>
       <Avatar
